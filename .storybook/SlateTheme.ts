@@ -4,7 +4,7 @@ export default create({
   base: "light",
   // Typography
   fontBase: '"DM Sans", sans-serif',
-  fontCode: "monospace",
+  fontCode: "sans-serif",
 
   brandTitle: "Slate Design kit One",
   brandImage: "/storybook-brandlogo.png",
