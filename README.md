@@ -1,7 +1,11 @@
 # Slate Design Kit One (React)
 
-This is a react component kit that isn't based in an npm package. What you have to to is: copy the components folder into your project, the tailwind css file and config file, then follow the documentation.
+This is a set of react components based off the [Slate Design Kit One Figma file]().
 
-All the documentation for components (and design patterns) is in the [Storybook website]()! (Or in the [Figma file]())
+We're using Next.js and Storybook to preview and document components. Our tailwind configuration is based off of Next.js 14.
 
-Currently, only light mode is supported.
+The storybook is also [online](), so you can view all the components and the documentation for them.
+
+## Installation
+
+This isn't a usual UI library for react. For this, all you have to do is copy the components folder from this repo, the tailwind input file (/app/globals.css) then copy the tailwind config file all into your own project. After you do that, run `npm i` to install the packages used for the components, then you're done!
