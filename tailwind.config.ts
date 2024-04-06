@@ -40,7 +40,7 @@ const config: Config = {
       "light-fg-accent-green":
         "linear-gradient(to bottom, rgba(33, 217, 51, 0.37), rgba(33, 217, 51, 0.53))",
       "light-fg-accent-purple":
-        "linear-gradient(to bottom, rgba(33, 217, 51, 0.53), rgba(119, 25, 238, 0.46))",
+        "linear-gradient(to bottom, rgba(138, 59, 238, 0.49), rgba(119, 25, 238, 0.46))",
       "light-fg-accent-gray":
         "linear-gradient(to bottom, rgba(200, 200, 200, 0.52), rgba(168, 168, 168, 0.38))",
     },
@@ -55,15 +55,25 @@ const config: Config = {
       "light-gray-flat": "rgba(160, 160, 160, 1)",
       // Background
       "light-bg-flat": "rgba(227, 227, 227, 1)",
-      // Strokes (aka borders) (unfinished, no coloured versions yet) (css sadly doesn't support gradient borders)
+      // Strokes (aka borders) (css sadly doesn't support gradient borders)
       "light-stroke-fg": "rgba(0, 0, 0, 0.15)",
       "light-stroke-fg-disabled": "rgba(0, 0, 0, 0.07)",
       "light-stroke-fg-2": "rgba(0, 0, 0, 0.10)",
       "light-stroke-fg-2-disabled": "rgba(0, 0, 0, 0.55)",
+      "light-stroke-fg-selected": "rgba(0, 178, 255, 0.85)",
+      "light-stroke-fg-selected-disabled": "rgba(0, 178, 255, 0.27)",
+      "light-stroke-fg-danger": "rgba(167, 9, 37, 1)",
+      "light-stroke-fg-warning": "rgba(255, 122, 0, 1)",
+      "light-stroke-fg-success": "rgba(2, 83, 10, 0.78)",
+      "light-stroke-fg-accent-blue": "rgba(0, 136, 195, 0.47)",
+      "light-stroke-fg-accent-red": "rgba(184, 15, 45, 0.67)",
+      "light-stroke-fg-accent-yellow": "rgba(207, 176, 15, 0.81)",
+      "light-stroke-fg-accent-green": "rgba(26, 181, 41, 0.62)",
+      "light-stroke-fg-accent-purple": "rgba(71, 10, 149, 0.67)",
     },
     textColor: {
       // ---- LIGHT MODE ----
-      "light-text-1": "rgba(28, 28, 28, 1)",
+      "light-text": "rgba(28, 28, 28, 1)",
       "light-text-subtle": "rgba(11, 11, 11, 0.65)",
       "light-text-disabled": "rgba(28, 28, 28, 0.4)",
     },
@@ -132,6 +142,7 @@ const config: Config = {
       fg: "12px",
     },
     extend: {
+      // Animation
       transitionTimingFunction: {
         "slate-out": "cubic-bezier(.14,.02,.09,.92)",
       },

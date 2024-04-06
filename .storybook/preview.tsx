@@ -1,6 +1,6 @@
 import type { Preview } from "@storybook/react";
-import SlateTheme from "./SlateTheme";
 import "../app/globals.css";
+import SlateTheme from "./SlateTheme";
 import { DM_Sans, DM_Mono } from "next/font/google";
 import React from "react";
 
@@ -18,12 +18,6 @@ const dmMono = DM_Mono({
 
 const preview: Preview = {
   parameters: {
-    controls: {
-      matchers: {
-        color: /(background|color)$/i,
-        date: /Date$/i,
-      },
-    },
     docs: {
       theme: SlateTheme,
     },
