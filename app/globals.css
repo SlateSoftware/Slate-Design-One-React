@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.h1 {
+  @apply text-1 font-medium font-sans leading-[108.5%];
+}
+.h2 {
+  @apply text-2 font-medium font-sans leading-[108.5%];
+}
+.h3 {
+  @apply text-3 font-medium font-sans leading-[108.5%];
+}
+.h4 {
+  @apply text-4 font-medium font-sans leading-[109%];
+}
+.h5 {
+  @apply text-5 font-medium font-sans leading-[109%];
+}
+.body-strong {
+  @apply text-body-strong font-semibold font-sans leading-[155%];
+}
+.body {
+  @apply text-body font-normal font-sans leading-[155%];
+}
+.sub {
+  @apply text-sub font-normal font-sans leading-[108.5%];
+}
+.mono {
+  @apply text-mono font-normal font-mono leading-[130%];
+}
